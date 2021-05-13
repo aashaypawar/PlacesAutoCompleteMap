@@ -80,7 +80,6 @@ class MainActivity : AppCompatActivity(), OnMapReadyCallback {
         // Add a marker in Sydney and move the camera
         val india = LatLng(20.5937, 78.9629)
         mMap.clear()
-        mMap.addMarker(MarkerOptions().position(india))
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(india,4.7F))
     }
 }
